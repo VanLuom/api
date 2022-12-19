@@ -8,7 +8,7 @@ $category_id = $_POST['category_id'];
 
 
 $rs = create_products($name,$price,$img,$category_id);
-var_dump($rs);
+
 die();
 $response = array(
     'status' => $rs

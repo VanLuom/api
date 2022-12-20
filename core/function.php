@@ -107,7 +107,7 @@ function get_user_list(){
             'id' => $row['id'],
             'email' => $row['email'],
             'password' => $row['password'],
-            'role' => $row['role'],
+            'role' => $row['role']
         );
 
         array_push($user_list, $user);
@@ -184,7 +184,6 @@ function login($email, $password){
 
     while ($row = $stmt->fetch()) {
         $user = array(
-            'id' => $row['id'],
             'email' => $row['email'],
             'password' => $row['password']
         );

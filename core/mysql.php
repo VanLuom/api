@@ -1,7 +1,7 @@
 <?php
-define('DB_NAME', 'shop');
+define('DB_NAME', 'shop-api');
 define('DB_USER', 'root');
-define('USER_PASS', '123456');
+define('USER_PASS', '');
 define('URL', 'mysql:host=localhost; dbname=' . DB_NAME);
 
 function get_pdo(){
